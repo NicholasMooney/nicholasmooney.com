@@ -1,0 +1,62 @@
+h1 {
+    color: red;
+}
+.main {
+    color: blue;
+}
+li {
+    list-style-type: none;
+}
+.nav {
+    padding-left: 70px;
+}
+
+.book{
+height:500px;
+width:1000px;
+    background-color:gray;
+margin-left:70px;
+margin-top:20px;
+position:relative;
+z-index:0;
+}
+
+.page1{
+    background-color:blue;
+    height:50px;
+    Width:80px;
+    z-index: 4;
+    position:relative;
+    float:right;
+    margin-left:100%
+}
+.page2{
+    background-color:red;
+    height:50px;
+    Width:80px;
+    margin-top:-10px;
+    z-index: 3;
+    position:relative;
+    float:right;
+    margin-left:100%
+}
+.page3{
+    background-color:green;
+    height:50px;
+    Width:80px;
+    margin-top:-10px;
+    z-index: 2;
+    position:relative;
+    float:right;
+    margin-left:100%
+}
+.page4{
+    background-color:yellow;
+    height:50px;
+    Width:80px;
+    margin-top:-10px;
+    z-index: 1;
+    position:relative;
+    float:right;
+    margin-left:100%
+}
