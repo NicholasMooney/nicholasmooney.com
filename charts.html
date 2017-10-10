@@ -5,38 +5,48 @@
     <title>A site about Nicholas Mooney</title>
     <!-- Load Google Analytics -->
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-      ga('create', 'UA-83762638-1', 'auto');
-      ga('send', 'pageview');
-
+        ga('create', 'UA-83762638-1', 'auto');
+        ga('send', 'pageview');
     </script>
     <!-- Load jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <!-- Load Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
     <!-- Load my own CSS -->
     <link rel="stylesheet" type="text/css" href="main.css" />
     <!-- Load Shine.js 3rd party lib -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/shine.js/0.2.7/shine.min.js"></script>
     <!-- Load Chartworks JS -->
-       <script type="text/javascript" src="https://content.markitcdn.com/www.chartworks.io/content/chartworks/dist/1.1.0/js/chartworks.min.js"></script>
+    <script type="text/javascript" src="https://content.markitcdn.com/www.chartworks.io/content/chartworks/dist/1.1.0/js/chartworks.min.js"></script>
     <style type="text/css">
-/* make chart fluid */
-.chart {
-  height: 100%;
-}
-</style>
+        /* make chart fluid */
+
+        .chart {
+            height: 100%;
+        }
+    </style>
 </head>
 
 <nav class="navbar navbar-default">
     <div class="container-fluid">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -46,18 +56,36 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li><a href="main.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <a href="main.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
                 <li class="dropdown active">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects
+                        <span class="caret"></span>
+                    </a>
                     <ul class="dropdown-menu">
-                      <li class="dropdown-header">Experiments</li>
-                      <li><a href="www.grantmooneywedding.com">Wedding website</a></li>
-                                  <li><a href="charts.html">ChartWorks</a></li>
-                                  <li><a href="Parallax test/Parallax.html">Parallax Example</a></li>
-                                  <li><a href="notebook.html">Notebook</a></li>
-                                  <li><a href="socialapis.html">Social APIs</a></li>
+                        <li class="dropdown-header">Experiments</li>
+                        <li>
+                            <a href="http://www.grantmooneywedding.com">Wedding website</a>
+                        </li>
+                        <li>
+                            <a href="charts.html">ChartWorks</a>
+                        </li>
+                        <li>
+                            <a href="Parallax test/Parallax.html">Parallax Example</a>
+                        </li>
+                        <li>
+                            <a href="notebook.html">Notebook</a>
+                        </li>
+                        <li>
+                            <a href="socialapis.html">Social APIs</a>
+                        </li>
                     </ul>
                 </li>
             </ul>
@@ -70,13 +98,14 @@
 <body>
     <div class="container">
         <div class="jumbotron">
-            <h1><a href="https://www.chartworks.io" target="_blank">ChartWorks</a> by Markit Digital</h1>
+            <h1>
+                <a href="https://www.chartworks.io" target="_blank">ChartWorks</a> by Markit Digital</h1>
         </div>
         <!-- Target where HTML5 chart will load -->
-   <div class="chart" id="chartTarget"></div>
+        <div class="chart" id="chartTarget"></div>
 
 
-      <!-- Chartworks Config -->
+        <!-- Chartworks Config -->
         <script type="text/javascript">
             new ChartworksBuilder({
                 "token": "demo-token",
@@ -106,7 +135,7 @@
                 "feature.saveLoad": true,
                 "feature.tools": true,
                 "theme": "dark",
-                "onChartLoad": function() {
+                "onChartLoad": function () {
                     // get the date 30 days ago
                     var d30 = new Date();
                     d30.setDate(d30.getDate() - 30);
@@ -126,7 +155,7 @@
                             "iconBackgroundColor": "white",
                             "rolloverTitle": "Prediction",
                             "rolloverBodyHTML": "30 days from now you'll view this <a href=\"https://chartworks.io/Documentation/html5#html5-methods-loadCustomEvents\" target=\"_blank\" style=\"color:#2BA92B!important\">custom event</a>!"
-                            }, {
+                        }, {
                             "date": d150.toISOString(),
                             "iconCharacter": "V",
                             "iconCharacterColor": "white",
@@ -137,15 +166,17 @@
                     }]);
 
                 },
-                "onPrimarySymbolChange": function(args) {
+                "onPrimarySymbolChange": function (args) {
                     console.log(args.symbol, args.exchangeId);
 
                     // Display a nice message when trying to get unentitled data
                     if (args.symbol != "AAPL" && args.symbol != "INFO") {
-                        this.showDialog("Alert", "This demo is only entitled to symbols AAPL and INFO on the NASDAQ. All other symbols will fail.");
+                        this.showDialog("Alert",
+                            "This demo is only entitled to symbols AAPL and INFO on the NASDAQ. All other symbols will fail."
+                        );
                     }
                 },
-                "onAPIError": function(apiError) {
+                "onAPIError": function (apiError) {
                     // handle 401 (unauthorized)
                     if (apiError.status === 401) {
 
@@ -156,7 +187,7 @@
                         // endless loop if we keep creating bad tokens
                         if (this.getInvalidTokenCount() < 5) {
                             var objChart = this;
-                            getNewToken(function(newToken) {
+                            getNewToken(function (newToken) {
                                 // set token
                                 objChart.setConfigParam('token', newToken);
 
@@ -164,7 +195,9 @@
                                 objChart.loadData();
                             });
                         } else { // fail after 5 unsuccessful tries
-                            this.showDialog("Warning", "Max number of auth attempts reached. Your token generation is no good!");
+                            this.showDialog("Warning",
+                                "Max number of auth attempts reached. Your token generation is no good!"
+                            );
                         }
                     } else { // print other errors in the console
                         console.log(apiError.status, apiError.statusMsg);
@@ -176,7 +209,7 @@
             // This is just an example
             function getNewToken(onComplete) {
                 // timeout to simulate a slow request
-                setTimeout(function() {
+                setTimeout(function () {
                     var token = "demo-token";
                     onComplete(token);
                 }, 1000);
@@ -185,9 +218,9 @@
 
         <noscript>Please enable Javascript</noscript>
     </div>
-<div style="margin:70px">
+    <div style="margin:70px">
 
-</div>
+    </div>
 
 </body>
 
